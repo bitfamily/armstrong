@@ -1,0 +1,15 @@
+%% -*- mode: erlang -*-
+
+{application, armstrong,
+ [
+  {description, "A socket library which supports several types of socket patterns."},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]
+}.
